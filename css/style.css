@@ -29,7 +29,6 @@ main {
 
 .panel  img {
     height: 100%;
-    background-color: black;
 }
 
 .clocks {
@@ -54,4 +53,8 @@ main {
 
 .desktop-element img {
     width: 100%;
+}
+
+.hamburger-menu img{
+    height: 95%;
 }
