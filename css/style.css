@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+}
+
+.desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url(../img/176995-yabloko-makbuk_ejr-apple-apple_masvook_pro-yabloko_m2-3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 94%;
+}
+
+.panel {
+    display: flex; 
+    justify-content: space-between;
+    background-color: brown;
+    height: 6%;
+}
+
+.panel  img {
+    height: 100%;
+    background-color: black;
+}
+
+.clocks {
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.desktop-element {
+    display: flex;
+    flex-direction: column;
+    height: calc(96% / 7);
+    width: 120px;
+    background-color: beige;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.desktop-element img {
+    width: 100%;
+}
