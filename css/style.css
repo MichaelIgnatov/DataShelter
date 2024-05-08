@@ -58,3 +58,23 @@ main {
 .hamburger-menu img{
     height: 95%;
 }
+
+.site-menu-container {
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.site-menu {
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.site-menu-elem {
+    margin-bottom: 5px;
+}
