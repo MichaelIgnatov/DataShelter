@@ -20,3 +20,4 @@ function getDate()
     document.getElementById('datedisplay').innerHTML = day[date.getDay()]+" " +date.getDate()+ "." + month[date.getMonth()]+ "." + date.getFullYear()
 }
 setInterval(getDate, 0);
+
