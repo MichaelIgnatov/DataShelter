@@ -60,21 +60,24 @@ main {
 }
 
 .site-menu-container {
-    position: relative;
+    position: absolute;
+    bottom: 53px;
     width: 200px;
     height: 400px;
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    visibility: visible;
 }
 
 .site-menu {
     list-style: none;
-    position: absolute;
-    bottom: 0;
     font-size: 30px;
     padding-left: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
-
+    
 .site-menu-elem {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
